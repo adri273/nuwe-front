@@ -1,0 +1,33 @@
+.formPanel {
+    flex: 0.6;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.formPanel > div {
+    margin-inline: 8em;
+}
+
+.formPanel--header {
+    text-align: right;
+    position: absolute;
+    top: 4em;
+    width: -webkit-fill-available;
+}
+
+.formPanel--content {
+    max-width: 35vw;
+}
+
+.formPanel--content > p {
+    font-size: 18px;
+    color: gray;
+    margin-block: 15px;
+}
+
+@media (max-width: 768px) {
+  .formPanel {
+    flex: 1;
+  }
+}

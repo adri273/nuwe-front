@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import InfoPanel from './components/InfoPanel/InfoPanel';
+import FormPanel from './components/FormPanel/FormPanel';
 
 function App() {
   return (
-    <div className='App'>
-      <h1>Ready!</h1>
+    <div className='app'>
+      <InfoPanel />
+      <FormPanel />
     </div>
   );
 }

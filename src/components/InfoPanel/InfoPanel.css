@@ -1,0 +1,28 @@
+.infoPanel {
+    align-items: center;
+    flex: 0.4;
+    background-color: #245a21;
+    background-image: url('../../assets/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: white;
+}
+.infoPanel--content {
+    padding-inline: 4em;
+}
+.infoPanel--content p {
+    margin-block: 2em;
+    line-height: 2rem;
+    font-size: 20px;
+}
+.infoPanel--content .iconEsquina {
+    display: block;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .infoPanel {
+    display: none !important;
+  }
+}
