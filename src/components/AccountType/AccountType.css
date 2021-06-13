@@ -5,6 +5,7 @@
     border-radius: 5px;
     box-shadow: 3px 3px 10px #f0f0f0;
     margin-block: 20px;
+    cursor: pointer;
 }
 .accountType svg{
     opacity: 0;
