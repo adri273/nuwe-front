@@ -3,6 +3,8 @@ import './App.css';
 import InfoPanel from './components/InfoPanel/InfoPanel';
 import FormPanel from './components/FormPanel/FormPanel';
 import RegistroProvider from './context/Registro/RegistroContext';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 function App() {

@@ -36,3 +36,14 @@
     padding-top: 5px;
 }
 
+@media (max-width: 425px) {
+    .accountType svg {
+        display: none !important;
+    }
+    .accountType--content {
+        flex: 1;
+    }
+    .accountType--content p {
+        max-width: 100%;
+    }
+}
